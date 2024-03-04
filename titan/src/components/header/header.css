@@ -1,3 +1,48 @@
-.navbar{
-background-color: #12203A;
+.navbar {
+  background: #12203a;
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.logo{
+  width: 150px;
+  margin-left: 55px;
+}
+.grid-container {
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.grid-item {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  margin-right: 38px;
+
+}
+
+.banner{
+  top: -50px;
+}
+
+.owl-item {
+  background-color: #D2527F;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.owl-prev,
+.owl-next {
+  display: inline-block;
+}
+.owl-next {
+  float: right;
+}
+.slider-counter {
+  text-align: center;
 }

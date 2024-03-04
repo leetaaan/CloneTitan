@@ -1,9 +1,12 @@
 import React from 'react'
 import Header from '../components/header/Header'
-const Home = () => {
+import Mainslider from '../components/mainslider/Mainslider'
+
+function Home() {
   return (
     <div>
         <Header/>
+        <Mainslider/>
     </div>
   )
 }
