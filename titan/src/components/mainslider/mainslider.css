@@ -1,0 +1,47 @@
+
+.swiper {
+    width: 100%;
+    position: relative;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+.swiper-button-next, .swiper-button-prev{
+    color: white;    
+}
+.swiper-pagination{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    bottom: 60px;
+
+}
+.banner{
+    display: flex;
+    position: relative;
+}
+.text{
+    color: white;
+    position: absolute;
+    background:none;
+    text-align:center;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    left: 0;
+    right: 0;
+    bottom: 15%;
+}
+a{
+    font-size: 60px;
+
+}
+p{
+    
+    font-size: 32px;
+}

@@ -24,7 +24,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="banner">
+      {/* <div className="banner">
         <div class="slider owl-carousel">
           <div className="banner"><img src="https://titancorpvn.com/uploads/banners/home-banner-1.jpg" alt="" /></div>
           <div className="banner"><img src="https://titancorpvn.com/uploads/banners/home-banner-2.jpg" alt="" /></div>
@@ -32,7 +32,7 @@ const Header = () => {
           <div className="banner"><img src="https://titancorpvn.com/uploads/banners/home-banner-4.jpg" alt="" /></div>
         </div>
         <div class="slider-counter"></div>
-      </div>
+      </div> */}
     </div>
   );
 };
