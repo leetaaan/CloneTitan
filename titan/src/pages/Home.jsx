@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '../components/header/Header'
-import Mainslider from '../components/mainslider/Mainslider'
+
+import MainSliders  from '../components/mainslider/MainSliders';
+import Services from '../components/services/Services';
+
 
 function Home() {
   return (
     <div>
         <Header/>
-        <Mainslider/>
+        <MainSliders/>
+        <Services/>
     </div>
   )
 }

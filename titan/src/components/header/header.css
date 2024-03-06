@@ -1,8 +1,8 @@
 .navbar {
   background: #12203a;
   width: 100%;
-  /* display: flex;
-  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
 .logo{
   width: 150px;
@@ -22,27 +22,20 @@
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   margin-right: 38px;
-
+}
+.navbar .log {
+  font-weight: 400;
 }
 
-.banner{
-  top: -50px;
+.navbar.scroll-down {
+  background-color: var(--secondary-color);
+  transition-delay: 200ms;
+  /* opacity: 100; */
+  transition: background-color 1s ease, opacity 1s ease;
 }
-
-.owl-item {
-  background-color: #D2527F;
-  color: white;
-  text-align: center;
-  padding: 100px 0;
-}
-
-.owl-prev,
-.owl-next {
-  display: inline-block;
-}
-.owl-next {
-  float: right;
-}
-.slider-counter {
-  text-align: center;
+.navbar.scroll-up {
+  background-color: transparent;
+  transition-delay: 200ms;
+  /* opacity: 100; */
+  transition: background-color 1s ease, opacity 1s ease;
 }

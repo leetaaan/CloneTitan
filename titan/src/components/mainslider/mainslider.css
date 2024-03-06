@@ -30,18 +30,15 @@
     position: absolute;
     background:none;
     text-align:center;
-    text-align: center;
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     left: 0;
     right: 0;
     bottom: 15%;
 }
-a{
+h1{
     font-size: 60px;
-
 }
 p{
-    
     font-size: 32px;
 }
