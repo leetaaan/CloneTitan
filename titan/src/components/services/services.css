@@ -1,0 +1,27 @@
+.service{
+    padding: 50px;
+}
+.headser{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+  
+  .grid-item .services-item {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    margin-right: 38px;
+  }
+  .logo-services-item{
+    width: 54px;
+    height: 72px;
+  }
