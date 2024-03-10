@@ -48,7 +48,7 @@ const MainSliders = () => {
       >
         {banner.length > 0 ? banner.map((item, index) => (
             <SwiperSlide key={index}>
-              <img src={item.image.imageUrl} alt=""  />
+              <img className="banner-img" src={item.image.imageUrl} alt=""  />
               <div className="text" >
                 <h1>{item.title}</h1>
                 <p>{item.description}</p>

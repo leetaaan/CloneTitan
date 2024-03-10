@@ -4,7 +4,7 @@
     position: relative;
   }
   
-  .swiper-slide img {
+  .banner-img {
     display: block;
     width: 100%;
     object-fit: cover;
