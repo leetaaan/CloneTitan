@@ -1,0 +1,55 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .pager button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background-color: var(--light-color);
+    cursor: pointer;
+  }
+
+  .pager button:hover{
+    background-color: var(--gray-color);
+    cursor: pointer;
+  }
+
+  .pager button.active {
+    background-color: var(--black);
+    color: var(--light-color);
+    border-color: var(--primary-color);
+  }
+
+  .pager button:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .pager {
+      margin-top: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .pager {
+      margin-top: 35px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .pager {
+      margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .pager {
+      margin-top: 25px;
+    }
+  }

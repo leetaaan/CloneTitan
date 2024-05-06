@@ -1,0 +1,29 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background: var(--preloader-url) 50% 50% no-repeat var(--light-color);
+}
+
+.loader .loader-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-150%);
+    transform: translate(-50%,-150%);
+}
+
+.loader .loader-image-img{
+    max-width: 100%;
+}

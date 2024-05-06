@@ -1,0 +1,184 @@
+.cms-box {
+    border-radius: 15px;
+    border: 1px solid var(--border);
+    padding: 20px;
+    box-shadow: 5px 10px var(--pastel-grey);
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.cms-title {
+    font-size: 32px;
+}
+
+.cms-logo-btn-language {
+    display: flex;
+    gap: 5vw;
+    padding: 10px 0;
+}
+
+.cms-logo {
+    position: relative;
+    width: 50%;
+}
+
+.logo-cms-homepage {
+    display: block;
+    width: 70%;
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+.cms-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--gray-color);
+}
+
+.cms-logo:hover .cms-overlay {
+    opacity: 90%;
+}
+
+.logo-text {
+    color: var(--light-color);
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hide-show-btn {
+    font-size: 25px;
+}
+
+.hide-show-top {
+    display: flex;
+    gap: 2vw;
+}
+
+.cms-banner-swiper {
+    width: 1700px;
+}
+
+.cms-title-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see-more-cms {
+    font-size: 22px;
+    color: var(--black);
+}
+
+.see-more-cms:hover {
+    color: var(--primary-color)
+}
+
+.cms-section-card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.item-cms-section {
+    color: var(--black);
+    display: grid;
+}
+.cms-card-section {
+    --border-radius: 0.75rem;
+    width: 210px;
+    height: 210px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    background: var(--card-section);
+    position: relative;
+  }
+  .cms-card-title {
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .cms-card-section:hover .cms-card-title {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+.cms-footernbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-footer-cms {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.title-content-cms-footer {
+    padding-bottom: 10px;
+}
+
+.cms-box-footer-infor {
+    position: relative;
+}
+
+.cms-overlay-footer {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--gray-color);
+}
+
+.cms-box-footer-infor:hover .cms-overlay-footer {
+    opacity: 90%;
+}
+
+.cms-back-update {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cms-update-btn {
+    font-size: 22px;
+    padding: 5px 20px;
+    background-color: var(--light-color);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cms-back-btn {
+    font-size: 22px;
+    padding: 5px 20px;
+    background-color: var(--light-color);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cms-back-btn:hover {
+    border: 1px solid var(--medium-orange);
+    color: var(--medium-orange);
+}
+
+.cms-update-btn:hover {
+    border: 1px solid var(--success);
+    color: var(--success);
+}

@@ -1,0 +1,138 @@
+.description_main_slide {
+  font-size: 32px;
+  font-weight: 200;
+  max-width: 70%;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 auto;
+  letter-spacing: .5px;
+}
+
+.title_main_slide {
+  text-decoration: none;
+}
+
+.title_main_slide:hover {
+  cursor: pointer;
+}
+
+.title_main_slide {
+  font-size: 60px;
+  margin: 0 0 20px;
+}
+
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper-slide .banner-img {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.main-slider-swiper .swiper-button-next,
+.main-slider-swiper .swiper-button-prev {
+  margin: 0;
+  padding: 0;
+  color: var(--light-color);
+  top: 93.5%;
+  right: 44.5%;
+  z-index: 11;
+  width: 10px;
+}
+.swiper-button-next,
+.swiper-button-prev:hover {
+cursor: pointer;
+}
+
+.main-slider-swiper .swiper-button-prev {
+  left: 44.5%;
+}
+
+.swiper-pagination {
+  color: var(--light-color);
+  font-size: 27px;
+  text-align: center;
+  bottom: 2%;
+  font-weight: 400;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+}
+
+.text_main_slide {
+  color: var(--light-color);
+  position: absolute;
+  background: none;
+  text-align: center;
+  text-align: center;
+  font-weight: 200;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+}
+
+.slider-counter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .description_main_slide {
+    font-size: 18px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 2% 20px;
+  }
+  .title_main_slide {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .main-slider-swiper .swiper-button-next,
+  .main-slider-swiper .swiper-button-prev {
+    top: 93%;
+    right: 41%;
+    width: 15px;
+    scale: 0.5;
+  }
+  .main-slider-swiper .swiper-button-prev {
+    left: 41%;
+  }
+  .swiper-pagination {
+    font-size: 20px;
+    bottom: 3%;
+  }
+  .text_main_slide {
+    font-size: 20px;
+    bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .description_main_slide {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .title_main_slide {
+    font-size: 32px;
+  }
+  .main-slider-swiper .swiper-button-next,
+  .main-slider-swiper .swiper-button-prev {
+    top: 93%;
+    right: 35%;
+  }
+  .main-slider-swiper .swiper-button-prev {
+    left: 35%;
+  }
+  .swiper-pagination {
+    font-size: 16px;
+  }
+  .text_main_slide {
+    font-size: 16px;
+  }
+}

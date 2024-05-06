@@ -1,0 +1,138 @@
+.container-blog-detail {
+    padding: 0 15px;
+    margin: 0 200px;
+}
+
+.box-container-blog-detail {
+    padding: 0 15px;
+    margin: 0 200px 200px;
+}
+
+.breadcrumb {
+    background: var(--light-color);
+    padding: 150px 0 60px;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.breadcrumb-home {
+    color: var(--gray-color);
+}
+
+.section-page {
+    color: var(--primary-color);
+}
+
+.breadcrumb .sep{
+    margin: 0 10px;
+}
+
+/*================================================================================================================================*/
+
+.content-blog-detail {
+    padding-bottom: 150px;
+}
+
+.title-blog-detail {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: var(--medium-gray);
+    font-weight: 400;
+}
+
+.date-blog-detail {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.post-title-blog-detail {
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.description-blog-detail p{
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: var(--gray-color);
+}
+
+.description-blog-detail img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description-blog-detail h2{
+    color: var(--gray-color);
+    font-weight: 400;
+}
+
+.description-blog-detail a{
+    color: var(--primary-color);
+}
+
+.description-blog-detail table{
+    width: auto !important; /* !!important will override default styling rules for the element so we can make the table in the blog detail page responsive. */
+}
+
+.box-container-blog-detail .swiper-button-prev{
+    color: var(--black);
+    scale: 1.2;
+    top: 30%;
+    padding-right: 15px;
+}
+
+.box-container-blog-detail .swiper-button-next{
+    color: var(--black);
+    scale: 1.2;
+    top: 30%;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container-blog-detail {
+        padding: 0px;
+        margin: 0 150px;
+    }
+
+    .box-container-blog-detail {
+        padding: 0px;
+        margin: 0 150px;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .container-blog-detail {
+        margin: 0 100px;
+    }
+
+    .box-container-blog-detail {
+        margin: 0 100px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container-blog-detail {
+        margin: 0 50px;
+    }
+
+    .box-container-blog-detail {
+        margin: 0 50px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .container-blog-detail {
+        margin: 0px;
+    }
+
+    .box-container-blog-detail {
+        margin: 0px;
+    }
+  }

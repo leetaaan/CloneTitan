@@ -1,0 +1,155 @@
+.contact-page-banner {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    min-height: 160px;
+    line-height: 1;
+  }
+
+  .contact-page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 72px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .contact-page-image {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .contact-us-content {
+    display: flex;
+    padding: 50px 0 100px;
+  }
+
+  .box-body-contact-page {
+    padding: 50px 0 100px;
+  }
+
+  .box-body-contact-page .form-group{
+    padding: 0 15px;
+  }
+
+  .contact-page-content-container {
+    margin: 0 10%;
+  }
+
+  .contact-us-text {
+    padding: 0;
+  }
+
+  .contact-us-text h3{
+    text-align: left;
+    font-size: 34px;
+    margin: 0 0 8px;
+    color: var(--medium-gray);
+    font-weight: 400;
+  }
+
+  .contact-us-text h4{
+    text-align: left;
+    font-size: 34px;
+    margin: 0 0 8px;
+    color: var(--medium-gray);
+    font-weight: 300;
+  }
+
+  .contact-us-text-paragraph {
+    text-align: justify;
+    margin: 0 0 10px;
+    color: var(--gray-color);
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+    @media only screen and (max-width: 1280px) {
+      .contact-page-content-container {
+        margin: 0 9%;
+      }
+      .box-body-contact-page {
+        padding: 30px 0 80px;
+      }
+      .contact-us-content {
+        padding: 40px 0 80px;
+      }
+      .contact-us-text {
+        padding: 0;
+      }
+      .contact-page-title {
+        font-size: 60px;
+        padding: 15px 40px;
+      }
+    }
+
+    @media only screen and (max-width: 980px) {
+      .contact-page-content-container {
+        margin: 0 8%;
+      }
+      .box-body-contact-page {
+        padding: 20px 0 60px;
+      }
+      .contact-us-content {
+        flex-direction: column;
+        padding: 30px 0 60px;
+      }
+      .contact-us-text {
+        padding: 0 25px;
+      }
+      .contact-page-title {
+        font-size: 50px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .contact-page-content-container {
+        margin: 0 6%;
+      }
+      .box-body-contact-page {
+        padding: 10px 0 30px;
+      }
+      .contact-us-content {
+        padding: 20px 0 40px;
+      }
+      .contact-us-text {
+        padding: 0 10px;
+      }
+      .contact-page-title {
+        font-size: 40px;
+        padding: 5px 60px;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .contact-page-content-container {
+        margin: 0 5%;
+      }
+      .box-body-contact-page {
+        padding: 0px;
+      }
+      .contact-us-content {
+        padding: 10px 0 20px;
+      }
+      .contact-us-text {
+        padding: 0px;
+      }
+      .contact-page-title {
+        font-size: 25px;
+        padding: 0px 100px;
+      }
+      .contact-us-text h3{
+        font-size: 26px;
+        margin: 0px;
+      }
+      .contact-us-text h4{
+        font-size: 26px;
+        margin: 0px;
+      }
+    }

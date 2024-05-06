@@ -1,0 +1,7 @@
+.banner-admin .data-grid-container img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: var(--primary-color);
+}

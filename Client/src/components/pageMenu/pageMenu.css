@@ -1,0 +1,52 @@
+.menu {
+    list-style-type: none;
+    padding: 80px 0 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: var(--light-color);
+    text-align: center;
+}
+
+.menu .current {
+    font-size: 22px;
+}
+
+.menu .menu-part {
+    margin-bottom: 40px;
+}
+
+.current {
+    text-decoration: underline;
+}
+.sub-menu {
+    list-style-type: none;
+    font-weight: 10;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.sub-menu li {
+    margin-bottom: 20px;
+}
+
+.sub-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.sub-menu a {
+    font-size: 20px;
+}
+
+.menu a {
+    font-size: 22px;
+    color: var(--light-color);
+ }
+
+ .menu li {
+    cursor: pointer;
+ }
+
