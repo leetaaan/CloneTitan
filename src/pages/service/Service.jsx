@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Box from "../../components/box/Box";
-import BoxSlider from "../../components/boxSlider/BoxSlider";
 import './Service.css'
 
 import { getAllSection } from "../../api/ItemApi";

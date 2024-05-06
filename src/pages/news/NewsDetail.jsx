@@ -26,6 +26,11 @@ const NewsDetail = () => {
     locale: currentLanguage
   }
 
+  let payload = {
+    sectionSlug: slugName.news,
+    urlSlug: slug,
+  }
+
   useEffect(() => {
     getItemBySlug(detailPayload).then((data) => {
       if (data) {
@@ -34,14 +39,6 @@ const NewsDetail = () => {
         setNewsItem(null);
       }
     });
-  }, [slug]);
-
-  let payload = {
-    sectionSlug: slugName.news,
-    urlSlug: slug,
-  }
-
-  useEffect(() => {
     getItemByDetailItem(payload).then((data) => {
       if (data) {
         setNews(data);
