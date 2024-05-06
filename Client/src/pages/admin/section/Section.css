@@ -1,0 +1,11 @@
+.sections-admin .MuiDataGrid-row>.MuiDataGrid-cell {
+    min-height: 180px;
+}
+
+.sections-admin .data-grid-container img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: var(--primary-color);
+}

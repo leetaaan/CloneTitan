@@ -1,0 +1,12 @@
+.customer-page-banner {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    min-height: 160px;
+    line-height: 1;
+  }
+  
+  .customer-page-image {
+    width: 100vw;
+    height: 100vh;
+  }

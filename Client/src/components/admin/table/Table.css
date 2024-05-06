@@ -1,0 +1,232 @@
+.edit-show {
+    transition: width 0.1s ease;
+    width: 0;
+    overflow-x: hidden;
+}
+.edit-show.active{
+    padding-top: 20px;
+    height: fit-content;
+    width: 50%;
+    z-index: 10;
+    background-color: var(--light-color);
+    position: relative;
+    border-left: 1px solid var(--border);
+}
+
+
+.MuiDataGrid-viewport.MuiDataGrid-row.MuiDataGrid-renderingZone{
+    max-height: fit-content;
+}
+
+.MuiDataGrid-cell{
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 2560px) {
+    .MuiDataGrid-row>.MuiDataGrid-cell {
+        font-size: 1.75rem;
+    }
+    .imageUrl-table{
+        width: 22rem;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        font-size: 1.5rem;
+    }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+        font-size: 2rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+        font-size: 2rem;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl{
+        font-size: 1.75rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+        font-size: 2.5rem;
+    }
+    .MuiTablePagination-selectLabel{
+        font-size: 1.5rem;
+    }
+    .MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input{
+        display: flex;
+        font-size: 2rem;
+        padding: 10px 40px;
+        align-items: center;
+    }
+    .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.MuiTablePagination-menuItem{
+        font-size: 1.5rem;
+    }
+    .MuiSelect-nativeInput {
+        font-size: 2rem;
+    }
+    .MuiTablePagination-displayedRows{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 2048px) {
+    .MuiDataGrid-row>.MuiDataGrid-cell {
+        font-size: 1.5rem;
+    }
+    .imageUrl-table{
+        width: 14rem;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        font-size: 1.25rem;
+    }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+        font-size: 1.75rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+        font-size: 1.75rem;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl{
+        font-size: 1.5rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+        font-size: 2.25rem;
+    }
+    .MuiTablePagination-selectLabel{
+        font-size: 1.25rem;
+    }
+    .MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input{
+        display: flex;
+        font-size: 1.75rem;
+        padding: 10px 40px;
+        align-items: center;
+    }
+    .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.MuiTablePagination-menuItem{
+        font-size: 1.25rem;
+    }
+    .MuiSelect-nativeInput {
+        font-size: 1.75rem;
+    }
+    .MuiTablePagination-displayedRows{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 1640px) {
+    .MuiDataGrid-row>.MuiDataGrid-cell {
+        font-size: 1rem;
+    }
+    .imageUrl-table{
+        width: 9rem;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        font-size: 1rem;
+    }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+        font-size: 1.25rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+        font-size: 1.5rem;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl{
+        font-size: 1.25rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+        font-size: 1.75rem;
+    }
+    .MuiTablePagination-selectLabel{
+        font-size: 1rem;
+    }
+    .MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input{
+        display: flex;
+        font-size: 1.25rem;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.MuiTablePagination-menuItem{
+        font-size: 1rem;
+    }
+    .MuiTablePagination-displayedRows{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .MuiDataGrid-row>.MuiDataGrid-cell {
+        font-size: 0.95rem;
+    }
+    .imageUrl-table{
+        width: 8rem;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        font-size: 0.85rem;
+    }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+        font-size: 0.85rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+        font-size: 1rem;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl{
+        font-size: 0.85rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+        font-size: 1.5rem;
+    }
+    .MuiTablePagination-selectLabel{
+        font-size: 1rem;
+    }
+    .MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input{
+        display: flex;
+        font-size: 1rem;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.MuiTablePagination-menuItem{
+        font-size: 1rem;
+    }
+    .MuiSelect-nativeInput {
+        font-size: 1.5rem;
+    }
+    .MuiTablePagination-displayedRows{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .MuiDataGrid-row>.MuiDataGrid-cell {
+        font-size: 1rem;
+    }
+    .imageUrl-table{
+        width: 8rem;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        font-size: 0.7rem;
+    }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+        font-size: 1rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+        font-size: 1rem;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl{
+        font-size: 1.1rem;
+    }
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+        font-size: 2rem;
+    }
+    .MuiTablePagination-selectLabel{
+        font-size: 1rem;
+    }
+    .MuiSelect-select.MuiTablePagination-select.MuiSelect-standard.MuiInputBase-input{
+        display: flex;
+        font-size: 1rem;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.MuiTablePagination-menuItem{
+        font-size: 1rem;
+    }
+    .MuiSelect-nativeInput {
+        font-size: 1.5rem;
+    }
+    .MuiTablePagination-displayedRows{
+        font-size: 1rem;
+    }
+}

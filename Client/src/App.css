@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--light-color);;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--light-color);
+  line-height:  1.42857143;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}
+

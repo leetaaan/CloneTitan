@@ -1,0 +1,138 @@
+  .innovation-page-banner {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    min-height: 160px;
+    line-height: 1;
+  }
+
+  .box-body-innovation {
+    padding: 50px 0 100px ;
+  }
+
+  .box-body-innovation .desc{
+    padding: 0 0 5% ;
+  }
+
+  .innovation-page-container {
+    margin: 0px 251.5px;
+  }
+
+  .innovation-page-context {
+    display: flex;
+  }
+
+  .innovation-page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 54px;
+    background: var(--banner-title);
+    color: var(--light-color);
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .innovation-page-image {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .innovation-page-item-image {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+
+  .innovation-page-item-image img{
+    max-width: 100%;
+  }
+
+  .innovation-page-name {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    color: var(--medium-gray);
+  }
+
+  .innovation-page-description {
+    padding: 0 30px;
+  }
+
+  .innovation-page-description p{
+    font-size: 22px;
+    color: var(--medium-gray);
+    font-weight: 300;
+  }
+
+  .innovation-page-description a{
+    color: var(--gray-color);
+  }
+
+  @media only screen and (max-width: 1660px) {
+    .innovation-page-title {
+      font-size: 46px;
+      padding: 15px 40px;
+    }
+    .innovation-page-container {
+      margin: 0px 160px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .innovation-page-title {
+      font-size: 32px;
+    }
+    .innovation-page-container {
+      margin: 0px 130px;
+    }
+    .innovation-page-item-image {
+      padding: 0 20px;
+    }
+    .innovation-page-description {
+      padding: 0 20px;
+    }
+}
+
+  @media only screen and (max-width: 980px) {
+    .innovation-page-context {
+      flex-direction: column;
+      text-align: center;
+    }
+    .innovation-page-container {
+      margin: 0px 80px;
+    }
+    .innovation-page-item-image {
+      padding: 0;
+    }
+    .innovation-page-description {
+      padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .innovation-page-context {
+      font-size: 22px;
+      padding: 0px;
+    }
+    .innovation-page-container {
+      margin: 0px 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .innovation-page-context {
+      font-size: 18px;
+      padding: 0px;
+    }
+    .innovation-page-container {
+      margin: 0px 20px;
+    }
+    .innovation-page-title {
+      font-size: 20px;
+      padding: 5px 20px;
+    }
+}

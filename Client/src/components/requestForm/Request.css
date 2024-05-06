@@ -1,0 +1,261 @@
+.box-body-request{
+    padding: 0 0 100px;
+}
+.request-container{
+    margin: 0 251.5px;
+    padding: 100px 15px 0;
+    border-top: 1px dashed var(--border-top-dashed);
+}
+
+.request-title{
+    font-size: 42.6667px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 51.2px;
+    display: inline;
+    text-align: center;
+}
+.request-description{
+    padding: 0px 0px 120px;
+    font-size: 30px;
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 43.8571px;
+    text-align: center;
+}
+.request-grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+.form-group{
+    text-align: left;
+    padding: 0 45px;
+}
+.request-item{
+    margin: 0 0 36px;
+    padding: 7px 0 0;
+    position: relative;
+
+}
+.request-icon{
+    color: var(--medium-gray);
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 60px;
+    height: 110%;
+    display: flex;
+
+}
+.request-input{
+    line-height: 30px;
+    width: 100%;
+    background-color: var(--light-color);
+    border: 1px solid var(--border-top-dashed);
+    border-radius: 10px;
+    color: var(--medium-gray);
+    font-size: 22px;
+    padding: 12px 15px 12px 60px;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.request-textarea{
+    line-height: 30px;
+    width: 100%;
+    background-color: var(--light-color);
+    border: 1px solid var(--border-top-dashed);
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 12px 15px;
+    height: 156px;
+    outline: none;
+    resize: none;
+}
+.request-input:focus{
+    border: 1px solid var(--input-focus);
+}
+.request-textarea:focus {
+    border: 1px solid #80bdff;
+}
+.btn-request{
+    align-items: start;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    color: var(--light-color);
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 25.3px;
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.input-error{
+    border: 1px solid red;
+}
+.error-message{
+    background-position: 0 0;
+    background-color: var(--error-bg);
+    border: 1px solid var(--error-border);
+    border-radius: 4px;
+    color: var(--error-text);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28.5714px;
+    margin: 0 0 40px;
+    padding: 15px;
+    text-align: left;
+}
+
+.recaptcha {
+    height: 100px;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1280px) {
+  .request-container {
+    margin: 0 70px; 
+    padding: 20px 40px; 
+  }
+  .request-title {
+    font-size: 38px;
+    text-align: center; 
+  }
+
+  .request-description {
+    font-size: 16px; 
+  }
+  .request-grid {
+    grid-template-columns: 100%; 
+  }
+  .request-input,
+  .request-textarea {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  .btn-request {
+    font-size: 16px; 
+    padding: 10px 15px; 
+  }
+  .error-message {
+    font-size: 14px; 
+    padding: 10px;
+  }
+
+  .request-description {
+    padding: 0 0 50px;
+    font-size: 24px;
+  }
+  .form-group {
+    padding: 0 10px;
+  }
+  .request-item {
+    margin: 0 0 10px;
+  }
+  .request-icon {
+    width: 10px;
+    padding: 0 30px;
+  }
+  .request-input,
+  .request-textarea {
+    font-size: 18px;
+    padding: 10px 50px;
+  }
+  .btn-request {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .request-container {
+      margin: 0 60px;
+      padding: 20px 40px;
+    }
+    .request-title {
+      font-size: 30px;
+    }
+
+    .request-description {
+      font-size: 16px;
+    }
+    .request-input,
+    .request-textarea {
+      font-size: 16px;
+      padding: 8px 12px;
+    }
+    .btn-request {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+    .error-message {
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .request-description {
+      padding: 0 0 50px;
+      font-size: 22px;
+    }
+    .request-grid {
+      grid-template-columns: 100%;
+    }
+    .form-group {
+      padding: 0px;
+    }
+    .request-item {
+      margin: 0 0 24px;
+    }
+    .request-icon {
+      width: 5px;
+      padding: 0 30px;
+    }
+    .request-input,
+    .request-textarea {
+      font-size: 18px;
+      padding: 10px 50px;
+    }
+    .btn-request {
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .request-container {
+      margin: 0 40px;
+      padding: 0;
+    }
+    .request-title {
+      font-size: 26px;
+    }
+    .request-description {
+      font-size: 16px; 
+    }
+    .request-input,
+    .request-textarea {
+      font-size: 16px;
+      padding: 8px 40px;
+    }
+    .btn-request {
+      font-size: 16px; 
+      padding: 10px 15px;
+    }
+    .error-message {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .request-icon {
+      width: 5px;
+      padding: 0 20px;
+    }
+  }

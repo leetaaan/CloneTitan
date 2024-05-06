@@ -1,0 +1,35 @@
+.input-cms {
+    position: relative;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.input-box {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--background-input);
+    padding-left: 3rem;
+    color: var(--medium-gray);
+    font-size: 20px;
+}
+
+.input-box-title {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--background-input);
+    padding-left: 3rem;
+    color: var(--medium-gray);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}

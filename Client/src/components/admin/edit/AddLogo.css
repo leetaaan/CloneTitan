@@ -1,0 +1,49 @@
+.add-Logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-color);
+    border-radius: 15px;
+    padding: 100px;
+    box-shadow: 0 4px 6px var(--medium-gray);
+}
+
+.add-Logo .btn-cancel {
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    background: var(--light-color);
+    border: none;
+    outline: none;
+    font-size: 32px;
+    color: var(--medium-gray);
+}
+
+.add-Logo .btn-cancel:hover {
+    color: var(--medium-orange);
+}
+
+.add-Logo .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-Logo .gallery-label {
+    cursor: pointer;
+    position: relative;
+}
+
+.add-Logo .img-gallery {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid var(--light-color);
+    margin-top: 10px;
+}
+
+.add-Logo .btn {
+    text-align: center;
+}
