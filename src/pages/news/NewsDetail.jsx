@@ -23,13 +23,13 @@ const NewsDetail = () => {
 
   const detailPayload = {
     slug: slug,
-    locale: currentLanguage
-  }
+    locale: currentLanguage,
+  };
 
   let payload = {
     sectionSlug: slugName.news,
     urlSlug: slug,
-  }
+  };
 
   useEffect(() => {
     getItemBySlug(detailPayload).then((data) => {
@@ -46,7 +46,7 @@ const NewsDetail = () => {
         setNews([]);
       }
     });
-  }, [slug]);
+  }, [detailPayload.slug, payload.slug]);
 
   if (!newsItem) {
     return <div>{translate("loading.LoadingDefault")}</div>;
@@ -90,7 +90,7 @@ const NewsDetail = () => {
           </div>
         </div>
         <div>
-        <BoxSlider
+          <BoxSlider
             name={slugName.news}
             items={news}
             textBoxStyle="hidden"
@@ -99,9 +99,9 @@ const NewsDetail = () => {
             switchNavigation={true}
             slidedelay="false"
             hasShort={true}
-            />
+          />
         </div>
-        </div>    
+      </div>
     </>
   );
 };
